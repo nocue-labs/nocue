@@ -26,7 +26,7 @@ menu:
     url: https://blog.twitter.com/engineering/en_us/topics/open-source
     rel: noopener
     weight: 10
-  - identifier: github
-    name: GitHub
+  - identifier: status
+    name: Status
     url: https://nocue-labs.github.io/nocue/status/
     weight: 20
