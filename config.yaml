@@ -28,5 +28,5 @@ menu:
     weight: 10
   - identifier: github
     name: GitHub
-    url: https://github.com/twitter
+    url: https://nocue-labs.github.io/nocue/status/
     weight: 20
