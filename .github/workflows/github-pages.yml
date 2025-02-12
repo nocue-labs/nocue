@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - name: setup hugo
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.78.0'
           extended: true
