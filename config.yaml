@@ -21,12 +21,13 @@ markup:
 menu:
   main:
   # individual pages are added to menu in their front matter
-  - identifier: blog
-    name: Blog
-    url: https://blog.twitter.com/engineering/en_us/topics/open-source
-    rel: noopener
+  - identifier: about-us
+    name: About Us
+    url: https://nocue-labs.github.io/nocue/about_us/
     weight: 10
-  - identifier: status
-    name: Status
-    url: https://nocue-labs.github.io/nocue/status/
-    weight: 20
+  # - identifier: blog
+  #   name: Blog
+  #   url: https://blog.twitter.com/engineering/en_us/topics/open-source
+  #   rel: noopener
+  #   weight: 20
+  

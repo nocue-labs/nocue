@@ -5,7 +5,7 @@
 }
 
 .grey {
-  background-color: var(--tw-color-gray-faint);
+  background-color: var(--tw-color-gray-faint); /*landing background*/
 
   @media (prefers-color-scheme: dark) {
     background-color: var(--tw-color-gray-1100);
@@ -104,10 +104,10 @@ img.emoji-img {
 /* Explore Projects */
 
 #explore-projects {
-  background-image: url("../assets/network.svg");
+  background-image: url("../assets/network_bg.jpeg");
   background-repeat: no-repeat;
-  background-size: auto 380px;
-  background-position: bottom left 5vw;
+  background-size: cover; /*auto 380px;*/
+  background-position: center; /*bottom left 5vw;*/
 
   @media (min-width: 600px) {
     background-position: bottom left 35vw;
@@ -117,7 +117,9 @@ img.emoji-img {
   }
 }
 .explore-text {
-  // space to display network graphic
+  // update to make the text white to match the background
+  color: white;
+  // space to display network graphic 
   margin-bottom: 320px;
 
   @media (min-width: 600px) {

@@ -77,7 +77,7 @@ main {
 
 // common styles across nav, header, and footer
 nav, .header, .footer {
-  background-color: var(--tw-color-blue-primary);
+  background-color: var(--tw-color-text-primary);
   color: white;
 
   @media (prefers-color-scheme: dark) {
