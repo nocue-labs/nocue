@@ -188,7 +188,6 @@
       "twitter-for-bigquery"
     ],
     "pantsbuild": [
-      "pants",
       "pex"
     ]
   }
