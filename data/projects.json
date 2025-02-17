@@ -2,13 +2,37 @@
   "nocue-autobots": {
     "descriptionHTML": "<div>Automate routine tasks with Nocue Autobots!</div>",
     "homepageUrl": "",
-    "isPrivate": true,
+    "isPublic": "",
     "languages": "Python",
     "name": "Nocue-Autobots",
     "nameWithOwner": "nocue-labs/projects-nocue-autobots",
     "primaryLanguage": {
       "color": "#3572A5",
       "name": "Python"
+    }  
+  },
+  "nocue-spiderbot": {
+    "descriptionHTML": "<div>Aggregate results across multiple sites!</div>",
+    "homepageUrl": "",
+    "isPublic": "",
+    "languages": "Python",
+    "name": "Nocue-Spiderbot",
+    "nameWithOwner": "nocue-labs/projects-nocue-spiderbot",
+    "primaryLanguage": {
+      "color": "#3572A5",
+      "name": "Python"
+    }  
+  },
+  "nocue-website": {
+    "descriptionHTML": "<div>Help revamp NOCUE Website!</div>",
+    "homepageUrl": "https://tinyurl.com/nocue",
+    "publicRepo": "nocue-labs/nocue",
+    "languages": "HTML, CSS, Javascript",
+    "name": "Nocue-Website",
+    "nameWithOwner": "nocue-labs/nocue",
+    "primaryLanguage": {
+      "color": "#3572A5",
+      "name": "Javascript"
     }  
   }
 }

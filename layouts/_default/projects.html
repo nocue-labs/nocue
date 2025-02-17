@@ -20,8 +20,9 @@
         <p class="project-language">{{ with .primaryLanguage }}{{ .name }}{{ end }}</p>
         <div class="whitespace"></div>
         <div class="project-links">
-            <a href="https://github.com/{{ .nameWithOwner }}" target="_blank" rel="noopener">GitHub</a>
-            {{ with .homepageUrl }}<a href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }}
+            <a href="https://forms.gle/qgEgZcWF3pVohrx88" target="_blank" rel="noopener">Sign up!</a>
+            {{ with .publicRepo }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+            <!-- {{ with .homepageUrl }}<a href="{{ . }}" target="_blank" rel="noopener">Website</a>{{ end }} -->
         </div>
         <a href="https://discord.gg/mBVvMTygGE" target="_blank"  rel="noopener" class="Button Button--secondary">Discord</a>
     </div>
